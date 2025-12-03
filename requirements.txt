@@ -1,5 +1,6 @@
 fastapi
 uvicorn
-requests
+httpx
+aiofiles
 python-dotenv
 pydantic-settings

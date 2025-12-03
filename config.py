@@ -1,6 +1,10 @@
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
+    """
+    Глобальные настройки приложения.
+    Загружает переменные окружения из файла .env и валидирует их наличие.
+    """
     CLIENT_ID: str
     CLIENT_SECRET: str
     HOST_URL: str
